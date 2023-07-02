@@ -1,0 +1,300 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ font-family: 'Roboto', sans-serif;
+}
+/*header{
+ position: relative;
+ padding: 15px;
+ background-color: rgb(43, 105, 164)
+;
+} 
+.title
+{
+    color:white;
+}*/
+
+header{
+
+    background-color:  rgb(43, 105, 164);
+    
+
+}
+header nav{
+
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+}
+
+
+header li{
+
+    display: inline;
+    margin-right: 10px;
+}
+
+header h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+ 
+
+
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+
+}
+li a:hover{
+    text-decoration: none;
+    color: rgb(77, 25, 76);
+
+}
+.MyImg{
+
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    
+}
+.About div
+{
+    width: 50%;
+  
+}
+
+.About h3{
+
+    font-family: 'Lobster', cursive;
+}
+
+.About div p{
+
+    font-size: 0.8em;
+}
+
+
+.About{
+    
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.About p{
+padding-top: 10px;
+
+}*/
+
+.Work{
+    text-align: center;
+    padding: 60px 0px;
+    width: 60%;
+    margin: auto;
+    color: white;
+
+}
+
+.WorkSection{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:  rgb(43, 105, 164);
+}
+
+.WorkSection div
+{
+    color: white;
+    width: 25%;
+    text-align: center;
+}
+.WorkSection img{
+
+    width: 100%;
+}
+
+.WorkSection div p
+{
+
+    font-size: 0.8em;
+}
+
+.WorkSection hr
+{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table th
+{display: block;
+  
+}
+table
+{
+position: absolute;
+left:10px;
+}
+
+
+.resumeDiv
+{
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    padding:40px 0px;
+
+}
+
+.resume{
+    position: relative;
+    color: white;
+
+
+}
+
+.resume p
+{
+    font-size: 0.8em;
+}
+
+.YoutubeVid{
+
+  display: block;
+  margin: auto;
+  padding: 0px 0px;
+}
+.YoutubeVidDiv{
+    background-image: url('pxfuel.jpg');
+    background-size: cover;
+    padding-bottom: 50px;
+
+    
+
+
+}
+
+.Contact
+{
+    padding: 30px 0px;;
+    background-image: url('aa.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+form{
+
+    width: 35%;
+    padding: 20px;
+    margin: auto;
+}
+#Contact
+{
+
+    color: rgb(225, 204, 204);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
+}
+.Contact div
+{
+    color: white;
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Contact div label{
+
+    display: block;
+}
+
+.input-fields input{
+
+    width: 90%;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#Birth input::-webkit-calendar-picker-indicator
+{
+    filter: invert(1);
+}
+
+
+
+.input-fields input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: white;
+opacity: 1; /* Firefox */
+}
+
+.input-fields input :-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: white;
+}
+
+.input-fields input ::-ms-input-placeholder { /* Microsoft Edge */
+color: white;
+}
+
+
+
+.buttons{
+    text-align: center;
+    
+
+}
+
+.buttons input{
+
+   padding: 6px;
+   width: 30%;
+   background-color: white;
+   color: rgb(43, 105, 164);
+   border: 2px solid white;
+   border-radius: 10px;
+   
+}
+.buttons input:hover{
+
+    background-color: rgb(43, 105, 164);
+    color: white;
+
+}
+.footer{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-size: 0.6em;
+}
+footer{
+
+background-color:rgb(43, 105, 164) ;
+}
+#Home{
+    text-decoration: none;
+    color: rgb(189, 129, 239);
+}
+#Home:hover{
+
+    color:rgb(188, 162, 242);
+}
